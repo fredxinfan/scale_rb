@@ -21,9 +21,9 @@ require 'hasher'
 require 'storage_helper'
 
 # client
-require 'client/rpc_request_builder'
-require 'client/http_client'
-require 'client/abstract_ws_client'
+require 'substrate/rpc_request_builder'
+require 'substrate/http_client'
+require 'substrate/abstract_ws_client'
 
 # get registry from config
 require 'registry'
